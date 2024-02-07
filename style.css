@@ -1,195 +1,306 @@
-@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:wght@300&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Victor Mono', monospace;
+@import url("https://fonts.googleapis.com/css2?family=Victor+Mono:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Victor Mono", monospace;
 }
-header{
-    height:100vh;
-    width: 100%;
-    background-image:url(building\ 4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+header {
+  height: 100vh;
+  width: 100%;
+  background-image: url(building\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
-.logo{
-    color: #EEEEEE;
-    font-size: 35px;
-    letter-spacing: 2px;
-    font-family: 'Victor Mono', monospace;
+.logo {
+  color: #eeeeee;
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-family: "Victor Mono", monospace;
 }
-#lio{
-    color: #CF0A0A;
+#lio {
+  color: #cf0a0a;
 }
-header nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 25px;
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
 }
-header nav ul li a{
-    color:#EEEEEE;
-    text-decoration: none;
-    font-weight: bold;
+header nav ul li a {
+  color: #eeeeee;
+  text-decoration: none;
+  font-weight: bold;
 }
-header nav ul li a:hover{
-    color: #CF0A0A;
-    transition: .4s;
+header nav ul li a:hover {
+  color: #cf0a0a;
+  transition: 0.4s;
 }
-.intro{
-    position: absolute;
-    top: 60%;
-    left:35%;
-    transform: translateY(-50%); 
+.intro {
+  position: absolute;
+  top: 60%;
+  left: 35%;
+  transform: translateY(-50%);
 }
-#p1{
-    color: #EEEEEE;
-    font-size: 30px;
+#p1 {
+  color: #eeeeee;
+  font-size: 30px;
 }
-#p2{
-    color: #EEEEEE;
-    font-size:  70px;
-    font-weight: 600;
+#p2 {
+  color: #eeeeee;
+  font-size: 70px;
+  font-weight: 600;
 }
-#p3{
-    color: #EEEEEE;
-    font-size: 40px;
-    letter-spacing: 2px;
+#p3 {
+  color: #eeeeee;
+  font-size: 40px;
+  letter-spacing: 2px;
 }
-#souk{
-    color:#CF0A0A ;
+#souk {
+  color: #cf0a0a;
 }
-#about{  
-    height:100vh;
-    width: 100%;
-    background-image:url(building\ 3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: space-between;
-    align-items:center ;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
+#about {
+  height: 100vh;
+  width: 100%;
+  background-image: url(building\ 3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
-#about img{
-    width: 330px;
-    height: auto;
+#about img {
+  width: 330px;
+  height: auto;
 }
-.abou2{
-
-    padding-top: 0px;
-    padding-left: 200px;
-    padding-right: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+.abou2 {
+  padding-top: 0px;
+  padding-left: 200px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
-.T1H1{
-    color: #EEEEEE;
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: 4px;
+.T1H1 {
+  color: #eeeeee;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
 }
-.T1H2{
-    color: #EEEEEE;
-    font-size:  30px;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-
-#EXP{
-    color: #CF0A0A;
-}
-.T1P{
-    color: #EEEEEE;
-    font-size: 20px;
-}
-button{
-    background-color: #CF0A0A;
-    color: #EEEEEE;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
-button:hover{
-    background-color: transparent;
-    border: 2px solid #CF0A0A;
-    cursor: pointer;
+.T1H2 {
+  color: #eeeeee;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
-#Services{  
-    height:100vh;
-    width: 100%;
-    background-image:url(building\ 5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#EXP {
+  color: #cf0a0a;
 }
-.TIT2{
-    text-align: center;
-    padding: 70px;
-    color: #EEEEEE;
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: 4px;
+.T1P {
+  color: #eeeeee;
+  font-size: 20px;
 }
 
-.BOX{
-    display: flex;
-    justify-content: space-evenly;
+#Services {
+  height: 100vh;
+  width: 100%;
+  background-image: url(building\ 5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-h4{
-    color: #CF0A0A;
-    margin-bottom: 20px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    
-}
-.box1, .box2, .box3, .box4{
-    height: 370px;
-    width: 300px;
-    padding: 30px;
-    text-align: center;
-    background-color: #44444479;
-    border-radius: 20px;
-    color: #EEEEEE;
+.TIT2 {
+  text-align: center;
+  padding: 70px;
+  color: #eeeeee;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
 }
 
-#resume{
-    height:100vh;
-    width: 100%;
-    background-image:url(building\ 6.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.BOX {
+  display: flex;
+  justify-content: space-evenly;
 }
-.T3{
-    text-align: center;
-    padding: 70px;
-    color: #EEEEEE;
-    font-size: 40px;
-    font-weight: 600;
-    letter-spacing: 4px;
+h4 {
+  color: #cf0a0a;
+  margin-bottom: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
-.T3par
+.box1,
+.box2,
+.box3,
+.box4 {
+  height: 370px;
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  background-color: #44444479;
+  border-radius: 20px;
+  color: #eeeeee;
+}
 
+#resume {
+  height: 100vh;
+  width: 100%;
+  background-image: url(building\ 6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.T3 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 10px;
+  color: #eeeeee;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.T3par {
+  color: #eeeeee;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 20px;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.712);
+}
 
+button {
+  background-color: #cf0a0a;
+  color: #eeeeee;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid #cf0a0a;
+  cursor: pointer;
+}
 
+#contact {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right, black 50%, #171717, #444444);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.P1Contact {
+  height: 70%;
+  width: 50%;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.Tcont {
+  text-align: center;
+  color: #eeeeee;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  padding-bottom: 10px;
+}
+.Pcont {
+  color: #eeeeee;
+  font-size: 20px;
+  line-height: 30px;
+}
+.mymail,
+.mymphone,
+.myposition {
+  color: #eeeeee;
+}
 
+.P2Contact form input {
+  color: #eeeeee;
+  text-decoration: none;
+  border: 2px solid #cf0a0a;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+textarea {
+  color: #eeeeee;
+  text-decoration: none;
+  border: 2px solid #cf0a0a;
+  font-weight: bold;
+  padding: 13px 30px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+#send {
+  background-color: #cf0a0a;
+  color: #eeeeee;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+  margin-right: 200px;
+  margin-top: 10px;
 
+}
+#send:hover {
+  background-color: transparent;
+  border: 2px solid #cf0a0a;
+  cursor: pointer;
+}
+#monForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
-
+.P2Contact h2 {
+  text-align: center;
+  color: #eeeeee;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  margin-right: 200px;
+  margin-top: 10px;
+}
+footer {
+  background-color: #cf0a0a;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  color: #eeeeee;
+  font-weight: bold;
+  white-space: 4px;
+  padding: 10px;
+}
